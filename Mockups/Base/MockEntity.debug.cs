@@ -37,6 +37,14 @@ namespace IngameScript.Mockups.Base
 
         public virtual BoundingSphereD WorldVolumeHr { get; set; }
 
+        public bool Closed
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         public virtual IMyInventory GetInventory()
         {
             throw new NotSupportedException("This block type does not have an inventory.");

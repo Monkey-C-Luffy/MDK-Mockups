@@ -170,5 +170,10 @@ namespace IngameScript.Mockups.Base
                 }
             }
         }
+
+        public bool HasPlayerAccess(long playerId,MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

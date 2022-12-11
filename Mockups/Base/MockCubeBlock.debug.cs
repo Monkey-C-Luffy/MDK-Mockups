@@ -75,5 +75,10 @@ namespace IngameScript.Mockups.Base
 
             return name;
         }
+
+        public MyRelationsBetweenPlayerAndBlock GetUserRelationToOwner(long playerId,MyRelationsBetweenPlayerAndBlock defaultNoUser = MyRelationsBetweenPlayerAndBlock.NoOwnership)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -40,6 +40,14 @@ namespace IngameScript.Mockups.Blocks
 
         public virtual string TerminalRunArgument { get; set; }
 
+        public bool UseGenericLcd
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         protected override IEnumerable<ITerminalProperty> CreateTerminalProperties()
         {
             return base.CreateTerminalProperties().Concat(new[]
